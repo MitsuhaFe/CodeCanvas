@@ -83,7 +83,7 @@ CodeCanvas是一款功能丰富的桌面定制软件，让您能够完全个性�
 
 1. 克隆仓库
    ```
-   git clone https://github.com/yourusername/code-canvas.git
+   git clone https://github.com/MitsuhaFe/CodeCanvas.git
    cd code-canvas
    ```
 
