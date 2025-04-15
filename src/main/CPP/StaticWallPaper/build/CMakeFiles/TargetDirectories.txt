@@ -1,0 +1,3 @@
+D:/Desktop/CodeCanvas/CodeCanvas/src/main/CPP/StaticWallPaper/build/CMakeFiles/StaticWallPaper.dir
+D:/Desktop/CodeCanvas/CodeCanvas/src/main/CPP/StaticWallPaper/build/CMakeFiles/edit_cache.dir
+D:/Desktop/CodeCanvas/CodeCanvas/src/main/CPP/StaticWallPaper/build/CMakeFiles/rebuild_cache.dir
