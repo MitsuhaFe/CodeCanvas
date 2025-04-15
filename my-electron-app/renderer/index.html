@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>桌面定制软件</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/workshop.css">
+  <link rel="stylesheet" href="styles/DockSettings.css">
+</head>
+<body>
+  <div id="app">
+    <!-- 侧边栏导航 -->
+    <nav class="sidebar">
+      <div class="sidebar-title">CodeCanvas</div>
+      <ul class="sidebar-menu">
+        <li class="active" data-section="wallpaper-library">壁纸库</li>
+        <li data-section="creative-workshop">创意工坊</li>
+        <li data-section="desktop-widgets">桌面小组件</li>
+        <li data-section="dock-taskbar">Dock任务栏</li>
+        <li data-section="desktop-pets">桌宠精灵</li>
+        <li data-section="settings">设置</li>
+      </ul>
+    </nav>
+
+    <!-- 主内容区域 -->
+    <main class="main-content">
+      <!-- 壁纸库部分 -->
+      <section id="wallpaper-library" class="section active">
+        <header class="section-header">
+          <h1>壁纸库</h1>
+          <div class="section-actions">
+            <button id="upload-wallpaper-btn" class="primary-btn">上传壁纸</button>
+          </div>
+        </header>
+        
+        <div class="wallpaper-grid" id="wallpaper-grid">
+          <!-- 壁纸将通过JavaScript动态加载 -->
+          <div class="loading-message">加载壁纸中...</div>
+        </div>
+      </section>
+
+      <!-- 创意工坊部分 -->
+      <section id="creative-workshop" class="section">
+        <header class="section-header">
+          <h1>创意工坊</h1>
+        </header>
+        <p>创意工坊功能正在开发中...</p>
+      </section>
+
+      <!-- 桌面小组件部分 -->
+      <section id="desktop-widgets" class="section">
+        <h1>桌面小组件</h1>
+        <p>此功能正在开发中...</p>
+      </section>
+
+      <!-- Dock任务栏部分 -->
+      <section id="dock-taskbar" class="section">
+        <header class="section-header">
+          <h1>Dock任务栏</h1>
+        </header>
+        <div id="dock-settings-container">
+          <!-- Dock设置将在此处加载 -->
+        </div>
+      </section>
+
+      <!-- 桌宠精灵部分 -->
+      <section id="desktop-pets" class="section">
+        <h1>桌宠精灵</h1>
+        <p>此功能正在开发中...</p>
+      </section>
+
+      <!-- 设置部分 -->
+      <section id="settings" class="section">
+        <h1>设置</h1>
+        <p>此功能正在开发中...</p>
+      </section>
+    </main>
+
+    <!-- 上下文菜单 -->
+    <div id="context-menu" class="context-menu">
+      <div class="context-menu-item" data-action="apply">应用壁纸</div>
+      <div class="context-menu-item" data-action="delete">删除壁纸</div>
+    </div>
+  </div>
+  
+  <script>
+    // 全局配置
+    window.API_BASE_URL = 'http://localhost:8080';
+  </script>
+  <script src="index.js"></script>
+  <!-- React和ReactDOM库 -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <!-- Dock设置组件脚本 - 使用浏览器友好版本 -->
+  <script src="js/DockSettings.browser.jsx" type="text/javascript"></script>
+  <script>
+    // 渲染Dock设置组件
+    document.addEventListener('DOMContentLoaded', function() {
+      ReactDOM.render(
+        React.createElement(DockSettings, null),
+        document.getElementById('dock-settings-container')
+      );
+    });
+  </script>
+</body>
+</html> 

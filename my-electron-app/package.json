@@ -1,0 +1,41 @@
+{
+  "name": "code-canvas",
+  "version": "1.0.0",
+  "description": "桌面定制软件 - 壁纸、小部件和桌宠",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "build": "electron-builder",
+    "backend": "cd .. && ./gradlew bootRun"
+  },
+  "author": "CodeCanvas Team",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^35.1.4",
+    "electron-builder": "^24.9.1"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "electron-store": "^10.0.1",
+    "form-data": "^4.0.2",
+    "sharp": "^0.30.7",
+    "wallpaper": "^7.2.1"
+  },
+  "build": {
+    "appId": "com.codecanvas.app",
+    "productName": "CodeCanvas",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+}
