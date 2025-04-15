@@ -1,0 +1,47 @@
+{
+	"name": "wallpaper",
+	"version": "7.2.1",
+	"description": "Manage the desktop wallpaper",
+	"license": "MIT",
+	"repository": "sindresorhus/wallpaper",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"exports": "./index.js",
+	"types": "./index.d.ts",
+	"sideEffects": false,
+	"engines": {
+		"node": ">=16"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts",
+		"source"
+	],
+	"keywords": [
+		"macos",
+		"linux",
+		"windows",
+		"wallpaper",
+		"desktop",
+		"background",
+		"image",
+		"picture",
+		"photo"
+	],
+	"devDependencies": {
+		"ava": "^5.3.1",
+		"tsd": "^0.28.1",
+		"xo": "^0.54.2"
+	},
+	"ava": {
+		"serial": true
+	}
+}
