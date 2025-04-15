@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "extract-file-icon": "^0.3.2",
+    "fluent-ffmpeg": "^2.1.3",
+    "sharp": "^0.34.1",
+    "uuid": "^11.1.0"
+  }
+}
