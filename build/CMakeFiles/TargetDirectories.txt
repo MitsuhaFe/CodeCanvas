@@ -1,0 +1,3 @@
+D:/Desktop/CodeCanvas/CodeCanvas/build/CMakeFiles/WallpaperSetter.dir
+D:/Desktop/CodeCanvas/CodeCanvas/build/CMakeFiles/edit_cache.dir
+D:/Desktop/CodeCanvas/CodeCanvas/build/CMakeFiles/rebuild_cache.dir

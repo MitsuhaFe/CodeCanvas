@@ -1,0 +1,7 @@
+D:/Desktop/CodeCanvas/CodeCanvas/Dock/src/cpp/build/CMakeFiles/DockBar.dir
+D:/Desktop/CodeCanvas/CodeCanvas/Dock/src/cpp/build/CMakeFiles/edit_cache.dir
+D:/Desktop/CodeCanvas/CodeCanvas/Dock/src/cpp/build/CMakeFiles/rebuild_cache.dir
+D:/Desktop/CodeCanvas/CodeCanvas/Dock/src/cpp/build/CMakeFiles/list_install_components.dir
+D:/Desktop/CodeCanvas/CodeCanvas/Dock/src/cpp/build/CMakeFiles/install.dir
+D:/Desktop/CodeCanvas/CodeCanvas/Dock/src/cpp/build/CMakeFiles/install/local.dir
+D:/Desktop/CodeCanvas/CodeCanvas/Dock/src/cpp/build/CMakeFiles/install/strip.dir
